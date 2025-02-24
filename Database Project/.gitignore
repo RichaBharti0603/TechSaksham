@@ -1,0 +1,42 @@
+# Ignore environment variables and sensitive files
+.env
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+mydbenv/
+venv/
+env/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore database files
+*.sqlite3
+*.db
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore Python package dependencies
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore temporary files and backup files
+*.bak
+*.swp
+*.swo
+
+# Ignore executable files
+*.exe
+*.dll
+*.so
+*.dylib
